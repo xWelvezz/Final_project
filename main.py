@@ -75,7 +75,7 @@ class Main(tk.Frame):
         # подписи колонок
         self.tree.heading("ID", text='ID')
         self.tree.heading("name", text='ФИО')
-        self.tree.heading("tel", text='Телефон')
+        self.tree.heading("tel", text='Номер телефона')
         self.tree.heading("email", text='E-mail')
 
         # упаковка
@@ -164,7 +164,7 @@ class Child(tk.Toplevel):
         # подписи
         label_name = tk.Label(self, text='ФИО:')
         label_name.place(x=50, y=50)
-        label_select = tk.Label(self, text='Телефон')
+        label_select = tk.Label(self, text='Номер телефона')
         label_select.place(x=50, y=80)
         label_sum = tk.Label(self, text='E-mail')
         label_sum.place(x=50, y=110)
